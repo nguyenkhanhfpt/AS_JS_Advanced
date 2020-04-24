@@ -1,0 +1,49 @@
+.tours__header {
+    background-image: url('../images/hotel.jpg');
+}
+
+.hotel {
+    margin-top: 4rem;
+    max-width: 1300px;
+    margin: 4rem auto 0;
+}
+
+.hotel__contai {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px 20px;
+    box-sizing: border-box;
+}
+
+.hotel__img {
+    border-radius: 4px;
+}
+
+.homestay__order {
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+    border: 1px solid #ced4da;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-right: .5rem;
+
+}
+.homestay__order select {
+    border: none;
+    font-size: 1.1rem;
+    color: #222;
+    outline: none;
+}
+
+@media screen and (max-width: 768px) {
+    .hotel__contai {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .hotel__contai {
+        grid-template-columns: 1fr 1fr;
+    }
+}

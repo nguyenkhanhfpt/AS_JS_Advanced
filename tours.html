@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tours</title>
+
+    <script src="./public/js/fontawesome.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Anton|Roboto:700&display=swap" rel="stylesheet">
+
+    <!-- link datepicker -->
+    <link rel="stylesheet" type="text/css" href="./public/css/foopicker.css">
+    <script type="text/javascript" src="./public/js/foopicker.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <!-- link slick -->
+    <link rel="stylesheet" href="./public/css/stick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick-theme.css">
+    <script type="text/javascript" src="./public/js/slick.min.js"></script>
+
+    <!-- link bootstrap -->
+    <link rel="stylesheet" href="./public/css/bootstrap.min.css">
+    <script src="./public/js/popper.min.js"></script>
+    <script src="./public/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="./public/css/main.css">
+    <link rel="stylesheet" href="./public/css/custom.css">
+    <link rel="stylesheet" href="./public/css/tours.css">
+</head>
+
+<body>
+
+    <nav class="menu">
+        <div class="container d-flex justify-content-between align-items-center position-relative">
+            <a href="index.html"><img src="./public/images/logo.png" alt="" class="logo"></a>
+            <ul class="mb-0 menu__list">
+                <li class="menu__item"><a href="index.html">Trang chủ</a></li>
+                <li class="menu__item"><a href="tours.html">Tours</a></li>
+                <li class="menu__item"><a href="hotel.html">Khách sạn</a></li>
+                <li class="menu__item"><a href="contact.html">Liên hệ</a></li>
+            </ul>
+
+            <div class="toggle">
+                <div class="span" id="one"></div>
+                <div class="span" id="tow"></div>
+                <div class="span" id="three"></div>
+            </div>
+
+            <div class="menuMobel">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <ul class="d-inline-block menuMobel__list">
+                        <li class="menuMobel__item"><a href="index.html">Trang chủ</a></li>
+                        <li class="menuMobel__item"><a href="tours.html">Tours</a></li>
+                        <li class="menuMobel__item"><a href="hotel.html">Khách sạn</a></li>
+                        <li class="menuMobel__item"><a href="contact.html">Liên hệ</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+
+    </nav>
+
+    <div class="main">
+
+        <header class="tours__header">
+            <h2>Tours dành cho bạn</h2>
+        </header>
+
+        <div class="container tours--width">
+            <div class="row">
+                <div class="col-12 col-lg-3">
+                    <div class="tours__search">
+                        <div class="tours__plan">
+                            <h4>Chuyến đi của bạn</h4>
+                        </div>
+                        <div class="tours__form">
+                            <form action="">
+                                <div class="form-group">
+                                    <label for="inputState">Địa điểm</label>
+                                    <select id="inputState" class="form-control">
+                                        <option selected>Choose...</option>
+                                        <option value="">TP. Hồ Chí Minh</option>
+                                        <option class="">Hà Nội</option>
+                                        <option class="">Đà Nẵng</option>
+                                        <option value="">Hội An</option>
+                                        <option value="">Phú Quốc</option>
+                                        <option value="">Hạ Long</option>
+                                        <option value="">Huế</option>
+                                        <option value="">Đà Lạt</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Ngày khởi hành</label>
+                                    <input type="text" class="form-control" id="dayStart">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Ngày về</label>
+                                    <input type="text" class="form-control" id="dayEnd">
+                                </div>
+                                <div class="form-group group-find-travel">
+                                    <input type="submit" value="TÌM KIẾM" class="tours__search--btn">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-9">
+                    <div class="tours__list" id="tours">
+                        <!-- <div class="tours__item">
+                            <img src="./public/images/halong.jpg" alt="" class="tours__img--grid">
+                            <div class="tours__content">
+                                <h2 class=""><a href="detailTour.html">Hạ Long</a></h2>
+                                <p class="hotel__describe">
+                                    <img src="./public/images/clock.png" width="17px"> 2 ngày / 1 đêm
+                                </p>
+                                <a href="detailTour.html">
+                                    <p class="text-muted tours__describe tours__describe--over">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s
+                                    </p>
+                                </a>
+
+                            </div>
+                            <div class="tours__price--flex">
+                                <p>Chỉ từ</p>
+                                <p class="tours__price--big">4.000.000 đ</p>
+                                <a href="detailTour.html" class="tours__detail">Xem chi tiết</a>
+                            </div>
+                        </div> -->
+                        
+
+                    </div>
+
+                    <nav aria-label="navigation" style="display: flex">
+                        <ul class="pagination">
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                            </li>
+                            <li class="page-item"><a class="page-link page-link-val" href="javascrip:void(0)">1</a></li>
+                            <li class="page-item"><a class="page-link page-link-val" href="javascrip:void(0)">2</a></li>
+                            <li class="page-item"><a class="page-link page-link-val" href="javascrip:void(0)">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-4 footer__logo--center">
+                    <img src="./public/images/logo.png" alt="" class="footer__logo">
+
+                    <div class="d-flex flex-column footer--center">
+                        <div class="d-flex mt-3 mx-3 mx-md-0">
+                            <img src="./public/images/contacts (1).png" alt="">
+                            <div class="footer__contact">
+                                <h5>Số điện thoại</h5>
+                                <p>0868 003 429</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex mt-3 mx-3 mx-md-0">
+                            <img src="./public/images/gmail (2).png" alt="">
+                            <div class="footer__contact">
+                                <h5>Gmail</h5>
+                                <p>khanh26122000@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-6 col-md-4">
+                    <h4 class="footer__title">Danh sách Homestay</h4>
+                    <ul class="footer__list" id="listLocalHomestay">
+                        <!-- <a href="">
+                            <li>Homestay TP. Hồ Chí Minh</li>
+                        </a> -->
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-4">
+                    <h4 class="footer__title">Về chúng tôi</h4>
+                    <ul class="footer__list">
+                        <a href="">
+                            <li>Điều khoản hoạt động</li>
+                        </a>
+                        <a href="">
+                            <li>0868 003 429</li>
+                        </a>
+                        <a href="">
+                            <li>khanh26122000@gmail.com</li>
+                        </a>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        var foopicker = new FooPicker({
+            id: 'dayStart',
+            dateFormat: 'dd/MM/yyyy'
+        });
+        var foopicker2 = new FooPicker({
+            id: 'dayEnd',
+            dateFormat: 'dd/MM/yyyy'
+        });
+    </script>
+
+    <script src="./public/js/menu.js"></script>
+    <script src="./public/js/dataTours.js"></script>
+    <script src="./public/js/dataFooter.js"></script>
+</body>
+
+</html>

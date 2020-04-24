@@ -1,0 +1,171 @@
+.tours__header {
+    background-image: url('../images/headerTourn.jpg');
+    height: 350px;
+}
+
+.detainTour {
+    margin-top: 4rem;
+    max-width: 1300px;
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    grid-gap: 20px 0;
+}
+
+.addressTour {
+    font-family: 'Roboto', sans-serif;
+}
+
+.detain {
+    padding-right : 4rem;
+}
+
+.bookTour {
+    padding: 0 .9rem;
+}
+
+.trending-tour-item__group-infor__rating:before{
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: "FontAwesome";
+    font-size: 13px;
+    font-weight: 400 !important;
+    color: var(--color);
+}
+
+.numReview {
+    color: #999999;
+    margin-right: 13px;
+    font-weight: 500;
+}
+
+.detainTour__intro {
+    padding-top: 2.5rem;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.detainTour__intro img {
+    width: 1.8rem;
+    height: 1.8rem; 
+    margin-right: 10px;
+}
+
+.detainTour__intro p {
+    font-size: .9rem;
+}
+
+.detaiTourn__info h3{
+    font-family: 'Roboto', sans-serif ;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.detaiTourn__info p {
+    color: #666;
+}
+
+.detainTour--grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    padding-top: 1rem;
+}
+
+.detainTour--grid>p:first-child {
+    font-weight: 700;
+}
+
+.detainTour--mb p {
+    margin-bottom: .3rem;
+}
+
+.detainTour__img {
+    margin-top: 2rem;
+}
+
+.detainTour__img .col-4 {
+    padding: 0 .5rem;
+}
+
+.detainTour__img--radius {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.detainTour__img img {
+    width: 100%;
+    max-height: 289px;
+}
+
+
+.tourn__comment {
+    margin-top: 2rem;
+}
+.tourn__comment h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+}
+
+.tourn__comment--contai {
+    display: flex;
+    margin-bottom: 1.8rem;
+}
+
+.tourn__comment--contai img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.tourn__contentCmt span:first-child {
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tourn__timeCmt {
+    margin-left: 1rem;
+    font-size: .9rem;
+    color: #b2b2b2;
+    font-weight: 500;
+}
+
+.tourn__contentCmt p {
+    color: #666;
+}
+
+
+.tours__plan h4 {
+    font-size: 1rem;
+}
+
+.tours__plan span {
+    font-size: 1.5rem;
+    margin-left: .5rem;
+    font-weight: 700;
+    color: var(--color);
+}
+
+@media screen and (max-width: 560px) {
+    .detain {
+        padding-right : 0rem;
+    }
+
+    .detainTour {
+        grid-template-columns: 1fr;
+        grid-gap: 20px 0;
+    }
+
+    .tourn__comment--contai img {
+        width: 55px;
+        height: 55px;
+    }
+
+    .tours__form {
+        margin-bottom: 0;
+    }
+}
+
+

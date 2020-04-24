@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khách sạn</title>
+
+    <script src="./public/js/fontawesome.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Anton|Roboto:700&display=swap" rel="stylesheet">
+
+    <!-- link datePicker -->
+    <link rel="stylesheet" type="text/css" href="./public/css/foopicker.css">
+    <script type="text/javascript" src="./public/js/foopicker.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <!-- link slick -->
+    <link rel="stylesheet" href="./public/css/stick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick-theme.css">
+    <script type="text/javascript" src="./public/js/slick.min.js"></script>
+
+    <!-- link bootstrap -->
+    <link rel="stylesheet" href="./public/css/bootstrap.min.css">
+    <script src="./public/js/popper.min.js"></script>
+    <script src="./public/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="./public/css/main.css">
+    <link rel="stylesheet" href="./public/css/custom.css">
+    <link rel="stylesheet" href="./public/css/tours.css">
+    <link rel="stylesheet" href="./public/css/hotel.css">
+
+</head>
+
+<body>
+
+    <nav class="menu">
+        <div class="container d-flex justify-content-between align-items-center position-relative">
+            <a href="index.html"><img src="./public/images/logo.png" alt="" class="logo"></a>
+            <ul class="mb-0 menu__list">
+                <li class="menu__item"><a href="index.html">Trang chủ</a></li>
+                <li class="menu__item"><a href="tours.html">Tours</a></li>
+                <li class="menu__item"><a href="hotel.html">Khách sạn</a></li>
+                <li class="menu__item"><a href="contact.html">Liên hệ</a></li>
+            </ul>
+
+            <div class="toggle">
+                <div class="span" id="one"></div>
+                <div class="span" id="tow"></div>
+                <div class="span" id="three"></div>
+            </div>
+
+            <div class="menuMobel">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <ul class="d-inline-block menuMobel__list">
+                        <li class="menuMobel__item"><a href="index.html">Trang chủ</a></li>
+                        <li class="menuMobel__item"><a href="tours.html">Tours</a></li>
+                        <li class="menuMobel__item"><a href="hotel.html">Khách sạn</a></li>
+                        <li class="menuMobel__item"><a href="contact.html">Liên hệ</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+
+    </nav>
+
+    <div class="main">
+        <header class="tours__header">
+            <h2>Khách sạn cho bạn</h2>
+        </header>
+
+        <div class="controller mt-5" style="max-width: 1300px; margin: 0 auto;">
+            <h3 class="mb-4 local__title">Lựa chọn homestay hoàn hảo cho bạn</h3>
+            <div class="slider" id="responsive">
+                <!-- <div>
+                    <a href="">
+                        <img src="./public/images/hcm.png" class="local__img">
+                        <div class="local__back--gradient">
+                            <h2>TP. Hồ Chí Minh</h2>
+                        </div>
+                    </a>
+                </div> -->
+            </div>
+        </div>
+
+        <div class="hotel">
+            <div class="d-flex justify-content-between pb-4">
+                <h3 class="local__title">Homestay nổi bật tại TravelViệt</h3>
+                <div class="homestay__order">
+                    <label for="order" class="mb-0 mr-2">Sắp xếp:</label>
+                    <select id="order">
+                        <option value="">Lựa chọn</option>
+                        <option value="priceLow">Giá thấp nhất</option>
+                        <option value="priceHigher">Giá cao nhất</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="hotel__contai px-3 px-sm-2" id="hotel">
+                <!-- <div>
+                    <a href="" class="text-decoration-none">
+                        <img src="./public/images/hotel1.jpg" alt="" class="hotel__img">
+                        <div class="hotel__info">
+                            <span class="hotel__type">Căn hộ dịch vụ</span>
+                            <h2 class="hotel__name">Sai Gon Voyage - Nguyen Hue Walking Street</h2>
+                            <p class="hotel__describe">2 khách - 1 ngủ - 1 tắm</p>
+                            <p class="hotel__price">450,000 đ/đêm</p>
+                            <p class="blockquote hotel__address">Quận 1, Hồ Chí Minh</p>
+                        </div>
+                    </a>
+                </div> -->
+
+            </div>
+
+            <nav aria-label="navigation" style="display: flex">
+                <ul class="pagination">
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link page-link-val" href="javascript:void(0)">1</a></li>
+                    <li class="page-item"><a class="page-link page-link-val" href="javascript:void(0)">2</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </div>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-4 footer__logo--center">
+                    <img src="./public/images/logo.png" alt="" class="footer__logo">
+
+                    <div class="d-flex flex-column footer--center">
+                        <div class="d-flex mt-3 mx-3 mx-md-0">
+                            <img src="./public/images/contacts (1).png" alt="">
+                            <div class="footer__contact">
+                                <h5>Số điện thoại</h5>
+                                <p>0868 003 429</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex mt-3 mx-3 mx-md-0">
+                            <img src="./public/images/gmail (2).png" alt="">
+                            <div class="footer__contact">
+                                <h5>Gmail</h5>
+                                <p>khanh26122000@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-6 col-md-4">
+                    <h4 class="footer__title">Danh sách Homestay</h4>
+                    <ul class="footer__list" id="listLocalHomestay">
+                        <!-- <a href="">
+                            <li>Homestay TP. Hồ Chí Minh</li>
+                        </a> -->
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-4">
+                    <h4 class="footer__title">Về chúng tôi</h4>
+                    <ul class="footer__list">
+                        <a href="">
+                            <li>Điều khoản hoạt động</li>
+                        </a>
+                        <a href="">
+                            <li>0868 003 429</li>
+                        </a>
+                        <a href="">
+                            <li>khanh26122000@gmail.com</li>
+                        </a>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    
+
+    <script src="./public/js/menu.js"></script>
+
+    <!-- lấy dữ liêu bỏ vào trong dom -->
+    <script src="./public/js/dataLocation.js"></script>
+    <script src="./public/js/getDataHotel.js"></script>
+    <script src="./public/js/dataFooter.js"></script>
+
+    <script src="./public/js/customStick.js"></script>
+</body>
+
+</html>

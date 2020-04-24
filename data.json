@@ -1,0 +1,260 @@
+{
+    "local": [
+        {
+            "images": "./public/images/hcm.png",
+            "nameLocal": "TP. Hồ Chí Minh"
+        },
+        {
+            "images": "./public/images/hn.png",
+            "nameLocal": "Hà Nội"
+        },
+        {
+            "images": "./public/images/location.png",
+            "nameLocal": "Đà Nẵng"
+        },
+        {
+            "images": "./public/images/hoian.jpg",
+            "nameLocal": "Hội An"
+        },
+        {
+            "images": "./public/images/phuquoc.jpg",
+            "nameLocal": "Phú Quốc"
+        },
+        {
+            "images": "./public/images/halong.png",
+            "nameLocal": "Hạ Long"
+        },
+        {
+            "images": "./public/images/hue.jpg",
+            "nameLocal": "Huế"
+        }
+    ],
+    "hotel": [
+        {
+            "image": "./public/images/hotel1.jpg",
+            "type": "Căn hộ dịch vụ",
+            "name": "Sai Gon Voyage - Nguyen Hue Walking Street",
+            "describe": "2 khách - 1 ngủ - 1 tắm",
+            "price": 850000,
+            "address": "Quận 1, TP. Hồ Chí Minh"
+        },
+        {
+            "image": "./public/images/hotel2.jpg",
+            "type": "Căn hộ dịch vụ",
+            "name": "Đà Nẵng Voyage - Nguyen Hue Walking Street",
+            "describe": "2 khách - 1 ngủ - 1 tắm",
+            "price": 460000,
+            "address": "Sơn Trà, Đà Nẵng, Việt Nam"
+        },
+        {
+            "image": "./public/images/hotel3.jpg",
+            "type": "Căn hộ dịch vụ",
+            "name": "Sai Gon Voyage - Nguyen Hue Walking Street",
+            "describe": "2 khách - 1 ngủ - 1 tắm",
+            "price": 450000,
+            "address": "Quận 1, TP. Hồ Chí Minh"
+        },
+        {
+            "image": "./public/images/hotel5.jpg",
+            "type": "Căn hộ dịch vụ",
+            "name": "Sai Gon Voyage - Nguyen Hue Walking Street",
+            "describe": "2 khách - 1 ngủ - 1 tắm",
+            "price": 550000,
+            "address": "Quận 1, TP. Hồ Chí Minh"
+        },
+        {
+            "image": "./public/images/hotel6.jpg",
+            "type": "Căn hộ dịch vụ",
+            "name": "Sai Gon Voyage - Nguyen Hue Walking Street",
+            "describe": "2 khách - 1 ngủ - 1 tắm",
+            "price": 400000,
+            "address": "Quận 1, TP. Hồ Chí Minh"
+        },
+        {
+            "image": "./public/images/hotel4.jpg",
+            "type": "Căn hộ dịch vụ",
+            "name": "Sai Gon Voyage - Nguyen Hue Walking Street",
+            "describe": "2 khách - 1 ngủ - 1 tắm",
+            "price": 750000,
+            "address": "Huế, Việt Nam"
+        },
+        {
+            "image": "./public/images/hotel7.jpg",
+            "type": "Căn hộ chung cư",
+            "name": "Pura Vida 1 Glamorous Studio A Gem inside Saigon",
+            "describe": "2 khách - 1 ngủ - 1 tắm",
+            "price": 650000,
+            "address": "Quận 1, TP. Hồ Chí Minh"
+        },
+        {
+            "image": "./public/images/hotel8.jpg",
+            "type": "Nhà riêng",
+            "name": "Ha Long *5BR* MocChanh Near the beach",
+            "describe": "15 khách - 5 ngủ - 5 tắm",
+            "price": 1250000,
+            "address": "Hạ Long, Quảng Ninh"
+        },
+        {
+            "image": "./public/images/hotel9.jpg",
+            "type": "Căn hộ chung cư",
+            "name": "Rooster Homestay 3 phòng ngủ VIEW 1/2 BIỂN",
+            "describe": "8 khách - 5 ngủ - 5 tắm",
+            "price": 1250000,
+            "address": "Hạ Long, Quảng Ninh"
+        },
+        {
+            "image": "./public/images/hotel10.jpg",
+            "type": "Biệt thự",
+            "name": "Wolf Villa Đà Lạt - Biệt thự với giường cực lớn và view thung lũng xanh",
+            "describe": "6 khách - 3 ngủ - 3 tắm",
+            "price": 1950000,
+            "address": "Đà Lạt, Việt Nam"
+        },
+        {
+            "image": "./public/images/hotel11.jpg",
+            "type": "Biệt thự",
+            "name": "Vinhomes Green Bay Luxury 1.1",
+            "describe": "2 khách - 1 ngủ - 1 tắm",
+            "price": 650000,
+            "address": "Nam từ Liêm, Hà Nội, Việt Nam"
+        },
+        {
+            "image": "./public/images/hotel12.jpg",
+            "type": "Biệt thự",
+            "name": "Goda | Spacious room | Garden view | Swimming pool",
+            "describe": "2 khách - 1 ngủ - 1 tắm",
+            "price": 650000,
+            "address": "Hội An, Quảng Nam, Việt Nam"
+        },
+        {
+            "image": "./public/images/hotel13.jpg",
+            "type": "Biệt thự",
+            "name": "Papaya House: 4 Phòng + Hồ Bơi Riêng + Xông Hơi + BBQ",
+            "describe": "5 khách - 4 ngủ - 5 tắm",
+            "price": 650000,
+            "address": "Hội An, Quảng Nam, Việt Nam"
+        },
+        {
+            "image": "./public/images/hotel14.jpg",
+            "type": "Biệt thự",
+            "name": "Cani Beach House - Room 101",
+            "describe": "5 khách - 4 ngủ - 5 tắm",
+            "price": 1200000,
+            "address": "Sơn Trà, Đà Nẵng, Việt Nam"
+        },
+        {
+            "image": "./public/images/hotel15.jpg",
+            "type": "Căn hộ dịch vụ",
+            "name": "San House A - Gần cầu Rồng - Miễn phí đón sân bay",
+            "describe": "6 khách - 2 ngủ - 2 tắm",
+            "price": 1199000,
+            "address": "Sơn Trà, Đà Nẵng, Việt Nam"
+        },
+        {
+            "image": "./public/images/hotel16.jpg",
+            "type": "Căn hộ dịch vụ",
+            "name": "Green Bungalow đồi thông lãng mạn cho cặp đôi",
+            "describe": "6 khách - 2 ngủ - 2 tắm",
+            "price": 721000,
+            "address": "Hà Nội, Việt Nam"
+        },
+        {
+            "image": "./public/images/hotel17.jpg",
+            "type": "Căn hộ dịch vụ",
+            "name": "Michelle's 24/24 - Standard Studio",
+            "describe": "6 khách - 2 ngủ - 2 tắm",
+            "price": 684000,
+            "address": "Huế, Việt Nam"
+        },
+        {
+            "image": "./public/images/hotel18.jpg",
+            "type": "Căn hộ studio",
+            "name": "HD Studio",
+            "describe": "6 khách - 2 ngủ - 2 tắm",
+            "price": 684000,
+            "address": "Hội An, Việt Nam"
+        }
+    ],
+    "comment": [
+        {
+            "name": "Nguyễn Khánh",
+            "img": "./public/images/meo.jpg",
+            "content": "Chuyến đi tới Thành phố Hồ Chí Minh thực sự tuyệt vời, một thành phố nhộn nhịp, với những con người thân thiện, tôi đã checkin ở nhà thờ Đức Bà và Landmark 81, ... và những địa điểm nổi tiếng khác của Sài Gòn."
+        },
+        {
+            "name": "Trần Thị Hồng Thủy",
+            "img": "./public/images/meo2.jpg",
+            "content": "Du lịch Đà Nẵng cao điểm nhất là từ cuối tháng 5 đến nửa đầu tháng 8 (thời điểm này chi phí vé máy bay, ăn ở cũng sẽ tăng theo). Vì vậy nếu bạn muốn có chuyến đi tuyệt vời mà lại tiết kiệm thì nên chọn thời điểm từ nửa cuối tháng 3 đến trước 30/4 và từ nửa cuối tháng 8 đến hết tháng 9. Đây là 2 thời điểm trước và sau mùa du lịch cao điểm nên thời tiết vẫn đẹp mà giá vé máy bay và phòng đã hạ xuống thấp hơn."
+        },
+        {
+            "name": "Lê Thị Hoàng Trâm",
+            "img": "./public/images/meo3.jpg",
+            "content": "Chuyến đi tới Thành phố Hồ Chí Minh thực sự tuyệt vời, một thành phố nhộn nhịp, với những con người thân thiện, tôi đã checkin ở nhà thờ Đức Bà và Landmark 81, ... và những địa điểm nổi tiếng khác của Sài Gòn."
+        }
+    ],
+    "tours": [
+        {
+            "nameTour": "Hội An",
+            "image": "./public/images/ha.jpg",
+            "day": "2 ngày / 1 đêm",
+            "describe": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "price": 1000000
+        },
+        {
+            "nameTour": "Phú Quốc",
+            "image": "./public/images/tourphuquoc.jpg",
+            "day": "2 ngày / 1 đêm",
+            "describe": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "price": 2000000
+        },
+        {
+            "nameTour": "Tây Bắc",
+            "image": "./public/images/taybac.jpg",
+            "day": "2 ngày / 1 đêm",
+            "describe": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "price": 1000000
+        },
+        {
+            "nameTour": "Hạ Long",
+            "image": "./public/images/halong.jpg",
+            "day": "2 ngày / 1 đêm",
+            "describe": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "price": 1500000
+        },
+        {
+            "nameTour": "Huế",
+            "image": "./public/images/hue.jpg",
+            "day": "2 ngày / 1 đêm",
+            "describe": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "price": 1000000
+        },
+        {
+            "nameTour": "Hà Giang",
+            "image": "./public/images/hagiang.jpg",
+            "day": "2 ngày / 1 đêm",
+            "describe": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "price": 1000000
+        },
+        {
+            "nameTour": "Phú Yên",
+            "image": "./public/images/phuyen.jpg",
+            "day": "2 ngày / 1 đêm",
+            "describe": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "price": 1000000
+        },
+        {
+            "nameTour": "Hà nội",
+            "image": "./public/images/hanoi.jpg",
+            "day": "2 ngày / 1 đêm",
+            "describe": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "price": 1000000
+        },
+        {
+            "nameTour": "Hội An - Đà Nẵng",
+            "image": "./public/images/dn-hoian.jpg",
+            "day": "2 ngày / 1 đêm",
+            "describe": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "price": 1000000
+        }
+    ]
+}

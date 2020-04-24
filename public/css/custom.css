@@ -1,0 +1,130 @@
+.ma5slider .slide, .navs-wrapper {
+    height: 450px;
+    cursor: pointer;
+}
+
+.nav--prev {
+    font-size: 1.2rem;
+}
+
+.nav--next {
+    font-size: 1.2rem;
+}
+
+
+/* form-control */
+.form-control {
+    border-radius: 2px;
+    border-color: #ccc;
+}
+
+.form-control:focus {
+    border-color: #ccc;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0);
+}
+
+
+
+/* picker date */
+.foopicker__date--month, .foopicker__date--year{
+    border: none;
+    padding: .5rem;
+}
+
+/* custom slick */
+.slider {
+    width: 100%;
+}
+
+.slider img {
+    width: 100%;
+    font-size: 36px;
+    line-height: 100px;
+    padding: 0 .5rem;
+    position: relative;
+    text-align: center;
+    height: 100%;
+}
+
+.local__img {
+    height: 300px !important;
+}
+
+
+.slick-slide {
+    outline: none !important;
+    position: relative;
+}
+
+.local__back--gradient {
+    position: absolute;
+    background: linear-gradient(0deg, rgba(0,0,0,0.8998949921765581) 6%, rgba(120,120,120,0) 64%, rgba(249,249,249,0) 100%);
+    height: 100%;
+    z-index: 10;
+    top: 0;
+    left: 0.5rem;
+    right: 0.5rem;
+    border-radius: 6px;
+    outline: none;
+}
+
+.local__back--gradient h2 {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 2rem;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: black ;
+}
+
+
+/* Pagination */
+.pagination {
+    margin: 1rem auto 0;
+}
+.page-link {
+    color: #000;
+}
+
+.page-link:hover {
+    z-index: 2;
+    color: #000;
+    background-color: var(--color);
+    border-color: #ebb70b;
+}
+.page-link:active {
+    border: var(--color);
+    box-shadow: 0 0 0 0.1rem rgba(255, 225, 0, 0.25);
+}
+
+
+@media(max-width: 768px) {
+    .slider img {
+        padding: 0 1rem;
+    }
+
+    .local__img {
+        height: 230px !important;
+    }
+
+    .local__back--gradient {
+        left: 1rem;
+        right: 1rem;
+        font-size: 2rem;
+    }
+
+    .ma5slider .slide, .navs-wrapper {
+        height: 300px !important;
+    }
+
+    .ma5slider .slide, .navs-wrapper {
+        height: 300px !important;
+    }
+}

@@ -1,0 +1,594 @@
+:root{
+    --color: #ffc600;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body>nav {
+    box-sizing: border-box;
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    transition: ease-out .5s;
+    padding: 1rem 0; 
+    z-index: 30;
+}
+
+.scroll {
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    width: 8.5rem;
+    height: 2.6rem;
+    transition: ease-out .5s;
+}
+
+.logoScroll {
+    width: 6.3rem;
+    height: 2rem;
+}
+
+.menu__item{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+    color: black;
+}
+
+.menu__item a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none !important;
+    transition: linear .3s;
+    font-size: 14px;
+}
+
+.toggle {
+    width: 30px;
+    transition: all .3s ease-out;
+    display: none;
+}
+
+.toggle .span {
+    height: 4px;
+    background-color: black;
+    margin-bottom: 3px;
+    transition: all .3s ease-out;
+    backface-visibility: hidden;
+}
+
+.toggle.rotate #one {
+    transform: rotate(45deg) translateX(5px) translateY(2px);
+}
+
+.toggle.rotate #tow {
+    display: none;
+}
+
+.toggle.rotate #three {
+    transform: rotate(-45deg) translateX(3px) translateY(0);
+}
+
+/* Mobel Menu */
+.menuMobel {
+    position: absolute;
+    width: 100%;
+    background-color: #f5f5f5;
+    height: 220px;
+    z-index: 100;
+    top: 40px;
+    left: 0px;
+    display: none;
+}
+
+.menuMobel__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.menuMobel__item {
+    margin: 1rem 0;
+}
+
+.menuMobel__item a{
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: black;
+}
+
+.menuMobel--scroll{
+    top: 30px;
+    background-color: #222;
+    color: #fff;
+}
+
+
+/* main */
+.main {
+    margin-top: 4.55rem;
+}
+
+
+/* header */
+header{
+    height: 450px;
+    background: rgb(216, 216, 215);
+}
+
+
+/* Box find tours travel */
+.find-travel {
+    margin-top: -4.5rem;
+}
+
+.findTour{
+    position: relative;
+    box-shadow: 4px 26px 50px 11px rgba(0, 0, 0, 0.12);
+    min-height: 8rem;
+    background-color: #ffffff;
+    border-radius: 4px;
+    padding: 1rem 2rem;
+    z-index: 20;
+}
+
+.findTour__form {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.findTour__place {
+    width: 250px;
+}
+
+.findTour__form .form-group{
+    position: relative;
+}
+
+#dayStart, #dayEnd {
+    padding-right: 2.5rem;
+}
+
+.date_icon i{
+    z-index: 1;
+    right: 15px;
+    font-size: 16px;
+    position: absolute;
+    top: 73%;
+    transform: translateY(-50%);
+}
+
+.findTour__form .form-control:focus{
+    border-color: var(--color);
+    box-shadow: 0 0 0 0.1rem rgba(255, 225, 0, 0.25);
+}
+
+.group-find-travel {
+    margin-bottom: -17px !important;
+}
+
+.findTour__btnSearch {
+    background-color: var(--color);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: .375rem 1.3rem;
+    font-size: 1rem;
+    font-weight: 400;
+    transition: ease-out .5s;
+}
+
+.findTour__btnSearch:hover {
+    background-color: #f0ae05;
+    
+}
+
+
+/* intro vietnam */
+.local__title{
+    margin-left: .5rem;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.local__title--small {
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+    display: block;
+    margin-left: .5rem;
+}
+
+
+
+/* Đặt phòng */
+.hotel__img {
+    width: 100%;
+    height: 160px !important;
+}
+
+.hotel__info{
+    padding: 0 .5rem;
+}
+
+.hotel__type{
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 600;
+    color: #888;
+}
+
+.hotel__name {
+    color: #ffbc00;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.hotel__describe {
+    font-size: .9rem; 
+    color: #000;
+    font-weight: 400; 
+    margin-bottom: .1rem; 
+}
+
+.hotel__price {
+    color: #000;
+    font-weight: 700;
+    margin-bottom: .2rem;
+    font-size: 1.1rem;
+}
+
+.hotel__address {
+    color: black;
+    font-size: .9rem;
+}
+
+
+/* Into tours */
+.tours {
+    max-width: 1300px; 
+    margin: 3.5rem auto;
+}
+
+.tours__title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.tours__title:after {
+    content: "";
+    display: block;
+    width: 8rem;
+    height: 2.5px;
+    background-color: var(--color);
+    margin: 4px auto;
+}
+
+.tours__contai {
+    height: 420px; 
+    overflow: hidden;
+}
+
+.tours__boxImg {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+}
+
+.tours__img {
+    transition: .3s linear;
+    height: 300px !important;
+}
+
+.tours__link:hover .tours__img{
+    transition: all .5s;
+    transform: scale(1.07);
+}
+
+.tours__info {
+    background-color: white;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.tours__link:hover .tours__info {
+    transition: all 0.5s;
+    height: 185px;
+    top: -85px;
+}
+
+.tours__name--textOver {
+    white-space: nowrap; 
+    width: 100%; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.tours__name {
+    font-size: 1.15rem;
+    margin: 1rem 0 .5rem;
+    font-weight: 700;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.tours__price {
+    color: var(--color);
+}
+
+.tours__describe {
+    padding: 5px 0;
+}
+
+
+/* Show Images */
+.showImages {
+    margin: 4rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.showImages__img {
+    width: 100%;
+    /* cursor: pointer; */
+}
+
+
+/* Display comment to people */
+.comment {
+    padding: 6.5rem 0;
+}
+
+.slick-dots li button:before{
+    font-size: .6rem;
+}
+
+.comment--cursor {
+    cursor: grab;
+}
+
+.comment__imagePeo {
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50%;
+    margin: 0 3rem;
+}
+
+.comment__content {
+    padding-right: 3.5rem;
+}
+
+.comment__name {
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 1.7rem;
+}
+
+
+
+footer{
+    margin-top: 3rem;
+    padding: 2rem 0 1rem;
+    min-height: 200px;
+    border-top: 1px solid rgb(245, 245, 245);
+}
+
+.footer__logo {
+    width: 150px;
+    margin-bottom: .8rem;
+}
+
+.footer__title {
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.3rem;
+}
+
+.footer__title:after {
+    display: block;
+    content: "";
+    width: 70px;
+    height: 2px;
+    background-color: #ffc600;
+    margin-top: 3px;
+}
+
+.footer__list {
+    padding: 0;
+    list-style: none;
+}
+
+.footer__list a {
+    text-decoration: none;
+    color: #000;
+    font-size: .9rem;
+    transition: linear .2s;
+}
+
+.footer__list a:hover {
+    color: #ffc600;
+}
+
+.footer__list li {
+    margin-bottom: .5rem;
+}
+
+.footer__contact {
+    margin-left: .5rem;
+}
+
+.footer__contact h5{
+    font-size: .9rem;
+    font-weight: 700;
+    margin-bottom: .2rem;
+    line-height: 10px;
+}
+
+.footer__contact p{
+    font-size: .95rem;
+    margin-bottom: 0rem;
+}
+
+
+@media(max-width: 1024px) {
+    .showImages {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+@media(max-width: 768px) {
+    html {
+        font-size: 70%;
+    }
+    header{
+        height: 300px;
+    }
+
+    .find-travel {
+        margin-top: -1rem;
+    }
+
+    .findTour {
+        padding: 2rem 2.3rem;
+    }
+ 
+    .findTour__form {
+        flex-direction: column;
+    }
+
+    .findTour__form .form-group{
+        width: 100% !important;
+    }
+
+    .findTour__form .form-control{
+        font-size: 1rem !important;
+    }
+
+    .findTour__btnSearch {
+        width: 100%;
+        padding: .9rem;
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin-bottom: 1rem;
+    }
+
+    .local__title{
+        margin-left: 1rem;
+    }
+    
+    .local__title--small {
+        margin-left: 1rem;
+        font-size: 1.3rem;
+    }
+
+
+    .hotel__img {
+        height: 130px !important;
+    }
+
+    .hotel__info {
+        padding: 0 1rem;
+    }
+
+    .hotel__name , .hotel__price{
+        font-size: 1.2rem;
+    }
+
+    .tours__contai {
+        height: 310px;
+    }
+
+    .tours__img {
+        height: 230px !important;
+    }
+
+    .tours__describe {
+        font-size: 1.05rem;
+    }
+    
+}
+
+
+@media(max-width: 560px) {
+    html {
+        font-size: 70%;
+    }
+    nav ul{
+        display: none;
+    }
+    .toggle {
+        display: block;
+    }
+
+
+    .tours {
+        margin: 2.7rem auto;
+    }
+
+    .tours__contai {
+        height: 280px;
+    }
+
+    .tours__img {
+        height: 200px !important;
+    }
+
+    .tours__link:hover .tours__info {
+        transition: all 0.5s;
+        height: 200px;
+        top: -100px;
+    }
+
+    .tours__describe {
+        font-size: .95rem;
+    }
+
+
+
+    .comment__imagePeo {
+        width: 70px !important;
+        height: 70px !important;
+        margin: 0;
+        margin-right: 1rem;
+    }
+    
+    .comment__content {
+        padding-right: 1rem;
+    }
+
+
+
+    .footer__logo--center {
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .footer--center {
+        flex-direction: row !important;
+        justify-content: space-around;
+    }
+
+    .footer__contact h5 {
+        text-align: left;
+    }
+}

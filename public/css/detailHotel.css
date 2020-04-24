@@ -1,0 +1,122 @@
+.ma5slider .slide {
+    width: 75%;
+}
+
+.dots {
+    display: none !important;
+}
+
+
+.container__hotel {
+    max-width: 1300px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-top: 1.5rem;
+}
+
+.detailHol__link>a {
+    color: black !important; 
+    text-decoration: none;
+    transition: all .2s;
+    padding: 0 .5rem;
+}
+
+.detailHol__link>a:hover {
+    color: var(--color) !important;
+}
+
+.detailHotel {
+    margin-top: 3rem;
+}
+
+
+.detaiHol__info {
+    margin-bottom: 2rem;
+}
+
+.detainHol__intro {
+    margin-bottom: 2rem;
+}
+
+.detainHol__intro img {
+    width: 24px;
+    margin-right: .3rem;
+}
+
+.detainHol__intro p {
+    font-weight: 500;
+}
+
+.detaiHol__info h4 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.detaiHol__info ul {
+    list-style-type: circle;
+}
+
+.detaiHol__info p {
+    color: #222;
+    letter-spacing: .01rem;
+    word-spacing: .05rem;
+    text-align: justify;
+}
+
+.detailHol__sevice {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.detailHol__sevice p {
+    margin-bottom: 1.5rem;
+}
+
+.detailHol__sevice img {
+    margin-right: .8rem;
+}
+
+.detaiHol__price h4{
+    text-transform: none;
+}
+
+.contact__submit {
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    padding: 10px 25px;
+    font-weight: 500;
+    background-color: var(--color);
+    transition: linear .3s;
+}
+
+.contact__submit:hover {
+    background-color: #f0ae05;
+}
+
+
+
+
+
+@media(max-width: 768px) {
+    html {
+        font-size: 70%;
+    }
+    header{
+        height: 250px;
+    }
+    
+    .ma5slider .slide, .navs-wrapper {
+        height: 250px !important;
+    }
+
+    .ma5slider .slide, .navs-wrapper {
+        height: 250px !important;
+    }
+
+    .ma5slider .slide {
+        width: 100%;
+    }
+    
+}
